@@ -1,12 +1,10 @@
-import React from 'react'
 import { Button } from '../ui/button'
-import { Github, Linkedin, Mail, Download, ArrowDown, Instagram } from 'lucide-react'
+import { Github, Linkedin, Mail, Download, ArrowDown,  } from 'lucide-react'
 import { scrollToSection } from '@/lib/utils'
-import { motion } from 'framer-motion'
 
 const Hero: React.FC = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden py-32">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/20"></div>

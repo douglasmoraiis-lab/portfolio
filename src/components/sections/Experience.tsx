@@ -1,7 +1,6 @@
-import React from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card'
 import { mockExperience } from '@/data/mock'
-import { Calendar, MapPin } from 'lucide-react'
+import { Calendar } from 'lucide-react'
 
 const Experience: React.FC = () => {
   const formatDate = (dateString: string) => {
@@ -29,7 +28,7 @@ const Experience: React.FC = () => {
               <Card key={exp.id} className="relative overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 {/* Timeline Line */}
                 {index !== mockExperience.length - 1 && (
-                  <div className="absolute left-8 top-20 bottom-0 w-px bg-border hidden md:block"></div>
+                  <div className="absolute left-4 top-20 bottom-0 w-px bg-border hidden md:block"></div>
                 )}
                 
                 <CardHeader>
@@ -44,7 +43,7 @@ const Experience: React.FC = () => {
                     </div>
                     
                     {/* Timeline Dot */}
-                    <div className="hidden md:flex items-center justify-center w-4 h-4 bg-primary rounded-full border-4 border-background absolute left-6 top-8"></div>
+                    <div className="hidden md:flex items-center justify-center w-4 h-4 bg-primary rounded-full border-4 border-background absolute left-1.5 top-8"></div>
                   </div>
                 </CardHeader>
 
