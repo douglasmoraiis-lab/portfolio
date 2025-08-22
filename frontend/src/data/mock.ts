@@ -73,30 +73,21 @@ export const mockProjects: Project[] = [
 export const mockExperience: Experience[] = [
   {
     id: '1',
-    company: 'TechCorp Solutions',
-    position: 'Senior Full-Stack Developer',
-    startDate: '2022-01',
+    company: 'Freelancer & Projetos Pessoais',
+    position: 'Desenvolvedor Full-Stack',
+    startDate: '2020-01',
     endDate: 'Present',
-    description: 'Led development of scalable web applications serving 100K+ users. Mentored junior developers and implemented CI/CD pipelines.',
-    technologies: ['React', 'Node.js', 'AWS', 'Docker', 'PostgreSQL']
+    description: 'Desenvolvimento de soluções completas utilizando tecnologias modernas. Foco em criar aplicações escaláveis e performáticas, sempre buscando as melhores práticas de desenvolvimento.',
+    technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'Go']
   },
   {
     id: '2',
-    company: 'StartupXYZ',
-    position: 'Full-Stack Developer',
-    startDate: '2020-06',
-    endDate: '2021-12',
-    description: 'Built MVP from scratch and scaled to production. Implemented real-time features and optimized application performance.',
-    technologies: ['Vue.js', 'Express.js', 'MongoDB', 'Socket.io']
-  },
-  {
-    id: '3',
-    company: 'Digital Agency Pro',
-    position: 'Frontend Developer',
-    startDate: '2019-03',
-    endDate: '2020-05',
-    description: 'Developed responsive web applications and collaborated with design teams to deliver pixel-perfect implementations.',
-    technologies: ['React', 'SASS', 'WordPress', 'jQuery']
+    company: 'Estudos e Certificações',
+    position: 'Desenvolvedor em Formação',
+    startDate: '2019-01',
+    endDate: '2020-01',
+    description: 'Período dedicado ao aprendizado intensivo de tecnologias web modernas e desenvolvimento de projetos para consolidar conhecimentos práticos.',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Git']
   }
 ];
 
