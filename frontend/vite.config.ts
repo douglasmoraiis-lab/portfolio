@@ -16,3 +16,4 @@ export default defineConfig({
     allowedHosts: ['moraiis-showcase.preview.emergentagent.com', 'localhost', '0.0.0.0'],
   },
 })
+
