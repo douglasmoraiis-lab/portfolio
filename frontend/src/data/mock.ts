@@ -38,37 +38,34 @@ export interface Testimonial {
 export const mockProjects: Project[] = [
   {
     id: '1',
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, inventory management, and admin dashboard.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/douglasmorais',
+    title: 'JavaScript Web Applications',
+    description: 'Desenvolvimento de aplicações web modernas utilizando JavaScript vanilla e frameworks como React. Foco em performance e experiência do usuário.',
+    technologies: ['JavaScript', 'React', 'HTML5', 'CSS3'],
+    githubUrl: 'https://github.com/douglasmoraiis-lab',
     featured: true
   },
   {
     id: '2',
-    title: 'Task Management App',
-    description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-    technologies: ['Vue.js', 'Express.js', 'MongoDB', 'Socket.io', 'Vuetify'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/douglasmorais',
+    title: 'TypeScript Projects',
+    description: 'Projetos desenvolvidos com TypeScript para garantir maior robustez e manutenibilidade do código. Aplicações escaláveis e tipadas.',
+    technologies: ['TypeScript', 'React', 'Node.js'],
+    githubUrl: 'https://github.com/douglasmoraiis-lab',
     featured: true
   },
   {
     id: '3',
-    title: 'Analytics Dashboard',
-    description: 'Business intelligence dashboard with interactive charts, data visualization, and reporting capabilities.',
-    technologies: ['React', 'D3.js', 'Python', 'FastAPI', 'Redis'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/douglasmorais',
-    featured: false
+    title: 'Backend Development',
+    description: 'Desenvolvimento de APIs e serviços backend utilizando Node.js e Python. Arquiteturas escaláveis e performáticas.',
+    technologies: ['Node.js', 'Python', 'Go', 'API REST'],
+    githubUrl: 'https://github.com/douglasmoraiis-lab',
+    featured: true
   },
   {
     id: '4',
-    title: 'Mobile Banking App',
-    description: 'React Native application for mobile banking with biometric authentication and real-time transaction processing.',
-    technologies: ['React Native', 'TypeScript', 'Firebase', 'Node.js'],
-    githubUrl: 'https://github.com/douglasmorais',
+    title: 'Full-Stack Solutions',
+    description: 'Soluções completas de desenvolvimento full-stack, desde o frontend até o backend, incluindo bancos de dados e deployment.',
+    technologies: ['React', 'Node.js', 'TypeScript', 'MongoDB'],
+    githubUrl: 'https://github.com/douglasmoraiis-lab',
     featured: true
   }
 ];
