@@ -111,23 +111,23 @@ export const mockSkills: Skill[] = [
 export const mockTestimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
-    position: 'Product Manager',
-    company: 'TechCorp Solutions',
-    content: 'Douglas is an exceptional developer who consistently delivers high-quality code. His ability to understand complex requirements and translate them into scalable solutions is impressive.'
+    name: 'Cliente Satisfeito',
+    position: 'Empreendedor',
+    company: 'Startup Local',
+    content: 'Douglas é um desenvolvedor excepcional que sempre entrega soluções de alta qualidade. Sua capacidade de entender requisitos complexos e transformá-los em aplicações funcionais é impressionante.'
   },
   {
     id: '2',
-    name: 'Michael Chen',
-    position: 'CTO',
-    company: 'StartupXYZ',
-    content: 'Working with Douglas was a game-changer for our startup. He built our entire platform from scratch and his attention to detail and performance optimization saved us months of development time.'
+    name: 'Colaborador',
+    position: 'Desenvolvedor Senior',
+    company: 'Projeto Open Source',
+    content: 'Trabalhar com Douglas em projetos open source é sempre uma experiência enriquecedora. Ele demonstra excelente conhecimento técnico e capacidade de colaboração.'
   },
   {
     id: '3',
-    name: 'Lisa Rodriguez',
-    position: 'Lead Designer',
-    company: 'Digital Agency Pro',
-    content: 'Douglas has an excellent eye for detail and consistently delivers pixel-perfect implementations. His collaboration with our design team was seamless and professional.'
+    name: 'Mentor',
+    position: 'Tech Lead',
+    company: 'Comunidade Dev',
+    content: 'Douglas mostra constante evolução como desenvolvedor. Sua paixão por tecnologia e dedicação aos estudos o destacam na comunidade de desenvolvimento.'
   }
 ];
