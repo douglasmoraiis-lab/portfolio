@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button } from '../ui/button'
-import { Github, Linkedin, Mail, Download, ArrowDown } from 'lucide-react'
+import { Github, Linkedin, Mail, Download, ArrowDown, Instagram } from 'lucide-react'
 import { scrollToSection } from '@/lib/utils'
+import { motion } from 'framer-motion'
 
 const Hero: React.FC = () => {
   return (
